@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.main-comments-container {
+  height: 100vh;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #000000;
+  font-weight: bold;
+  margin: 50px;
+}
+.top-section-container {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  font-weight: 700;
+}
+.input-element {
+  padding-left: 10px;
+  height: 30px;
+  max-width: 400px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.textarea-element {
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 8px;
+  max-width: 400px;
+}
+.hr {
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.comments-image {
+  order: 1;
+  width: 40%;
+}
+.comments-inputs-container {
+  order: 0;
+  width: 40%;
+}
+.button {
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+  border: 0px none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0284c7;
+}
+
+.comments {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  font-weight: 500;
+  margin-left: 50px;
+}
+.comments-count {
+  height: 40px;
+  width: 40px;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #0284c7;
+}
+.comments-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 576px) {
+  .top-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+  }
+  .comments-inputs-container {
+    flex-direction: column;
+    width: 80%;
+    order: 1;
+  }
+  .comments-image {
+    order: 0;
+    width: 100%;
+  }
+  .main-heading {
+    margin-left: 25px;
+    margin-top: 50px;
+  }
+  .textarea-element {
+    min-width: 250px;
+    margin-right: 25px;
+  }
+
+  .hr {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .comments {
+    margin-left: 25px;
+  }
+}

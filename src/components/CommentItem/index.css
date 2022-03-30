@@ -1,0 +1,112 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+.comment-section {
+  display: flex;
+  flex-direction: flex-start;
+}
+.initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #334155;
+}
+.time-difference {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #7e858e;
+  margin-left: 100px;
+}
+.comment {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+}
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+}
+.delete-button {
+  border: 0px none;
+  background-color: #ffffff;
+}
+.delete {
+  height: 24px;
+  width: 24px;
+  margin-right: 50px;
+}
+.like-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.imagestyle {
+  height: 30px;
+  width: 30px;
+  margin-right: 18px;
+}
+.button {
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #cbd2d9;
+}
+.liked-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #0ea5e9;
+}
+.hr {
+  color: black;
+}
